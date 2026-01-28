@@ -1,0 +1,36 @@
+/* =====================
+   LOGIN
+===================== */
+.login {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.login__card {
+    border: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login__title {
+    color: #1f4364;
+    font-weight: bold;
+}
+
+.login .btn-primary {
+    background-color: #1f4364;
+    border: none;
+}
+
+.login .btn-primary:hover {
+    background-color: #38BDF8;
+}
+
+.login__register a {
+    color: #38BDF8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login__register a:hover {
+    text-decoration: underline;
+}

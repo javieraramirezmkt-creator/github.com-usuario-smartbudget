@@ -1,0 +1,17 @@
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    &__item a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-weight: bold;
+
+        &:hover {
+            background-color: $secondary-color;
+            border-radius: 5px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.card-budget {
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.card-budget {
+  border-radius: 10px;
+  text-align: center;
+
+  .card-line {
+    width: 50px;
+    margin: 1rem auto;
+  }
+}
